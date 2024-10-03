@@ -44,7 +44,7 @@ export function DeleteDocumentButton({
             Are you sure you want to delete this document?
           </AlertDialogTitle>
           <AlertDialogDescription>
-            Your document can not be recovered after it's been deleted.
+            Your document cannot be recovered after it&#39;s been deleted.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>

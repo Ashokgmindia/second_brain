@@ -65,6 +65,7 @@ export default function SearchPage() {
           if (result.type === "notes") {
             return (
               <SearchResult
+                key={result.record._id} // Add a unique key prop
                 type="note"
                 url={`/dashboard/notes/${result.record._id}`}
                 score={result.score}
@@ -74,6 +75,7 @@ export default function SearchPage() {
           } else {
             return (
               <SearchResult
+                key={result.record._id} // Add a unique key prop
                 type="document"
                 url={`/dashboard/documents/${result.record._id}`}
                 score={result.score}

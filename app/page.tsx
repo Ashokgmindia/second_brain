@@ -28,11 +28,11 @@ export default function LandingPage() {
               className="mx-auto rounded-2xl mb-4"
             />
             <h1 className="dark:text-gray-50 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Take Control of you Team Documentation
+              Take Control of Your Team Documentation
             </h1>
             <p className="dark:text-gray-100 mt-6 text-lg leading-8 text-gray-600">
-              BigBrain acts as your team's second brain, storing all your docs
-              and allowing easy vector search.
+              MindFuel acts as your team&apos;s second brain, storing all your
+              docs and allowing easy vector search.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <SignInButton>

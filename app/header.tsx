@@ -20,7 +20,7 @@ export function Header() {
               className="rounded"
               alt="an image of a brain"
             />
-            BIGBRAIN
+            MindFuel
           </Link>
 
           <nav className="flex items-center gap-8">
