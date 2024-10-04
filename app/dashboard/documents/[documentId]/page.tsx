@@ -86,7 +86,7 @@ export default function DocumentPage({
               </TabsList>
 
               <TabsContent value="document">
-                <div className="bg-gray-500 p-4 rounded-xl flex-1 h-[500px]">
+                <div className="bg-gray-450 p-4 rounded-xl flex-1 h-[500px]">
                   {document.documentUrl && (
                     <>
                       {(() => {
